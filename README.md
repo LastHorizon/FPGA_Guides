@@ -4,3 +4,5 @@ In 2018 I was awared a Ph.D. at the University of Bath for my work exploring the
 In my spare time I still perform FPGA based research, as well as being involved in STEM UK as an ambassador and dedicating time to the REMAP project - supplying custom equipment to disabled people where no commercial solution exisits. 
 
 This site is intended to provide complete guides to using FPGA technology for dynamic reconfiguration. The information contained within is the knowledge that I have gathered during my studies and employment. There is no affliation to any manufacturer.    
+
+Contact information: alex.e.beasley@bath.edu
