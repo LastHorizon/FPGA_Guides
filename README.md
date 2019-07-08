@@ -7,4 +7,6 @@ In my spare time I still perform FPGA based research, as well as being involved 
 
 This site is intended to provide complete guides to using FPGA technology for dynamic reconfiguration. The information contained within is the knowledge that I have gathered during my studies and employment. There is no affiliation to any manufacturer. All guides found on this website are free to use so long as the original copyright information is maintained.    
 
+Please note all documents are works in progess, please see the commit history to view all changes. 
+
 For any suggestions or queries, please contact: alex.e.beasley@bath.edu
