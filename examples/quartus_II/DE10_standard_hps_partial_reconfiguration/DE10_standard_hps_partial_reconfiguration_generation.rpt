@@ -1,0 +1,208 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\Repos\UserGuides\FPGA_Guides\examples\quartus_II\DE10_standard_hps_partial_reconfiguration.qsys --block-symbol-file --output-directory=D:\Repos\UserGuides\FPGA_Guides\examples\quartus_II\DE10_standard_hps_partial_reconfiguration --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading quartus_II/DE10_standard_hps_partial_reconfiguration.qsys
+Progress: Reading input file
+Progress: Adding Clock [clock_source 15.0]
+Progress: Parameterizing module Clock
+Progress: Adding alt_pr_0 [alt_pr 15.0]
+Progress: Parameterizing module alt_pr_0
+Progress: Adding fpga_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module fpga_master
+Progress: Adding hps_0 [altera_hps 15.0]
+Progress: Parameterizing module hps_0
+Progress: Adding hps_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module hps_master
+Progress: Adding interrupt_latency_counter_0 [interrupt_latency_counter 15.0]
+Progress: Parameterizing module interrupt_latency_counter_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding mm_bridge_0 [altera_avalon_mm_bridge 15.0]
+Progress: Parameterizing module mm_bridge_0
+Progress: Adding sdram_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module sdram_master
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: DE10_standard_hps_partial_reconfiguration.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: DE10_standard_hps_partial_reconfiguration.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: DE10_standard_hps_partial_reconfiguration.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: DE10_standard_hps_partial_reconfiguration.hps_0: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: DE10_standard_hps_partial_reconfiguration.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: DE10_standard_hps_partial_reconfiguration.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: DE10_standard_hps_partial_reconfiguration.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.freeze must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_ready_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_done_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_error_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.crc_error_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_request_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_clk_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_data_pin must be exported, or connected to a matching conduit.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\Repos\UserGuides\FPGA_Guides\examples\quartus_II\DE10_standard_hps_partial_reconfiguration.qsys --synthesis=VERILOG --output-directory=D:\Repos\UserGuides\FPGA_Guides\examples\quartus_II\DE10_standard_hps_partial_reconfiguration\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading quartus_II/DE10_standard_hps_partial_reconfiguration.qsys
+Progress: Reading input file
+Progress: Adding Clock [clock_source 15.0]
+Progress: Parameterizing module Clock
+Progress: Adding alt_pr_0 [alt_pr 15.0]
+Progress: Parameterizing module alt_pr_0
+Progress: Adding fpga_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module fpga_master
+Progress: Adding hps_0 [altera_hps 15.0]
+Progress: Parameterizing module hps_0
+Progress: Adding hps_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module hps_master
+Progress: Adding interrupt_latency_counter_0 [interrupt_latency_counter 15.0]
+Progress: Parameterizing module interrupt_latency_counter_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding mm_bridge_0 [altera_avalon_mm_bridge 15.0]
+Progress: Parameterizing module mm_bridge_0
+Progress: Adding sdram_master [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module sdram_master
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: DE10_standard_hps_partial_reconfiguration.hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: DE10_standard_hps_partial_reconfiguration.hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: DE10_standard_hps_partial_reconfiguration.hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: DE10_standard_hps_partial_reconfiguration.hps_0: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: DE10_standard_hps_partial_reconfiguration.hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: DE10_standard_hps_partial_reconfiguration.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: DE10_standard_hps_partial_reconfiguration.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.freeze must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_ready_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_done_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_error_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.crc_error_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_request_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_clk_pin must be exported, or connected to a matching conduit.
+Warning: DE10_standard_hps_partial_reconfiguration.alt_pr_0: alt_pr_0.pr_data_pin must be exported, or connected to a matching conduit.
+Info: DE10_standard_hps_partial_reconfiguration: Generating DE10_standard_hps_partial_reconfiguration "DE10_standard_hps_partial_reconfiguration" for QUARTUS_SYNTH
+Info: Interconnect is inserted between master hps_master.master and slave hps_0.f2h_axi_slave because the master is of type avalon and the slave is of type axi.
+Info: Interconnect is inserted between master sdram_master.master and slave hps_0.f2h_sdram0_data because the master has address signal 32 bit wide, but the slave is 27 bit wide.
+Info: Interconnect is inserted between master sdram_master.master and slave hps_0.f2h_sdram0_data because the master has readdata signal 32 bit wide, but the slave is 256 bit wide.
+Info: Interconnect is inserted between master sdram_master.master and slave hps_0.f2h_sdram0_data because the master has writedata signal 32 bit wide, but the slave is 256 bit wide.
+Info: Interconnect is inserted between master sdram_master.master and slave hps_0.f2h_sdram0_data because the master has byteenable signal 4 bit wide, but the slave is 32 bit wide.
+Warning: hps_0.f2h_irq0: Cannot connect clock for irq_mapper.sender
+Warning: hps_0.f2h_irq0: Cannot connect reset for irq_mapper.sender
+Warning: hps_0.f2h_irq1: Cannot connect clock for irq_mapper_001.sender
+Warning: hps_0.f2h_irq1: Cannot connect reset for irq_mapper_001.sender
+Info: alt_pr_0: generating top-level entity alt_pr
+Info: alt_pr_0: "DE10_standard_hps_partial_reconfiguration" instantiated alt_pr "alt_pr_0"
+Info: fpga_master: "DE10_standard_hps_partial_reconfiguration" instantiated altera_jtag_avalon_master "fpga_master"
+Info: hps_0: "Running  for module: hps_0"
+Info: hps_0: HPS Main PLL counter settings: n = 0  m = 73
+Info: hps_0: HPS peripherial PLL counter settings: n = 0  m = 39
+Warning: hps_0: "Configuration/HPS-to-FPGA user 0 clock frequency" (desired_cfg_clk_mhz) requested 100.0 MHz, but only achieved 97.368421 MHz
+Warning: hps_0: "QSPI clock frequency" (desired_qspi_clk_mhz) requested 400.0 MHz, but only achieved 370.0 MHz
+Warning: hps_0: 1 or more output clock frequencies cannot be achieved precisely, consider revising desired output clock frequencies.
+Info: hps_0: "DE10_standard_hps_partial_reconfiguration" instantiated altera_hps "hps_0"
+Info: interrupt_latency_counter_0: "DE10_standard_hps_partial_reconfiguration" instantiated interrupt_latency_counter "interrupt_latency_counter_0"
+Info: jtag_uart_0: Starting RTL generation for module 'DE10_standard_hps_partial_reconfiguration_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec D:/programfiles/altera/15.0/quartus/bin64/perl/bin/perl.exe -I D:/programfiles/altera/15.0/quartus/bin64/perl/lib -I D:/programfiles/altera/15.0/quartus/sopc_builder/bin/europa -I D:/programfiles/altera/15.0/quartus/sopc_builder/bin/perl_lib -I D:/programfiles/altera/15.0/quartus/sopc_builder/bin -I D:/programfiles/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I D:/programfiles/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/programfiles/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=DE10_standard_hps_partial_reconfiguration_jtag_uart_0 --dir=C:/Users/aebea/AppData/Local/Temp/alt8079_1049383503923975926.dir/0003_jtag_uart_0_gen/ --quartus_dir=D:/programfiles/altera/15.0/quartus --verilog --config=C:/Users/aebea/AppData/Local/Temp/alt8079_1049383503923975926.dir/0003_jtag_uart_0_gen//DE10_standard_hps_partial_reconfiguration_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'DE10_standard_hps_partial_reconfiguration_jtag_uart_0'
+Info: jtag_uart_0: "DE10_standard_hps_partial_reconfiguration" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: mm_bridge_0: "DE10_standard_hps_partial_reconfiguration" instantiated altera_avalon_mm_bridge "mm_bridge_0"
+Info: sysid_qsys_0: "DE10_standard_hps_partial_reconfiguration" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "DE10_standard_hps_partial_reconfiguration" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_1: "DE10_standard_hps_partial_reconfiguration" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: mm_interconnect_2: "DE10_standard_hps_partial_reconfiguration" instantiated altera_mm_interconnect "mm_interconnect_2"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_3: "DE10_standard_hps_partial_reconfiguration" instantiated altera_mm_interconnect "mm_interconnect_3"
+Info: irq_mapper: "DE10_standard_hps_partial_reconfiguration" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_mapper_001: "DE10_standard_hps_partial_reconfiguration" instantiated altera_irq_mapper "irq_mapper_001"
+Info: irq_mapper_002: "DE10_standard_hps_partial_reconfiguration" instantiated altera_irq_mapper "irq_mapper_002"
+Info: rst_controller: "DE10_standard_hps_partial_reconfiguration" instantiated altera_reset_controller "rst_controller"
+Info: jtag_phy_embedded_in_jtag_master: "fpga_master" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "fpga_master" instantiated timing_adapter "timing_adt"
+Info: fifo: "fpga_master" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "fpga_master" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "fpga_master" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "fpga_master" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "fpga_master" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "fpga_master" instantiated channel_adapter "p2b_adapter"
+Info: fpga_interfaces: "hps_0" instantiated altera_interface_generator "fpga_interfaces"
+Info: hps_io: "hps_0" instantiated altera_hps_io "hps_io"
+Info: alt_pr_0_avmm_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "alt_pr_0_avmm_slave_translator"
+Info: hps_0_h2f_lw_axi_master_agent: "mm_interconnect_0" instantiated altera_merlin_axi_master_ni "hps_0_h2f_lw_axi_master_agent"
+Info: alt_pr_0_avmm_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "alt_pr_0_avmm_slave_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: hps_0_h2f_lw_axi_master_wr_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "hps_0_h2f_lw_axi_master_wr_limiter"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: alt_pr_0_avmm_slave_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "alt_pr_0_avmm_slave_burst_adapter"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: alt_pr_0_avmm_slave_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "alt_pr_0_avmm_slave_rsp_width_adapter"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_001: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_001"
+Info: mm_bridge_0_m0_translator: "mm_interconnect_1" instantiated altera_merlin_master_translator "mm_bridge_0_m0_translator"
+Info: mm_bridge_0_m0_agent: "mm_interconnect_1" instantiated altera_merlin_master_agent "mm_bridge_0_m0_agent"
+Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_1" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_1" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_1" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: cmd_mux_001: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: hps_0_f2h_axi_slave_agent: "mm_interconnect_2" instantiated altera_merlin_axi_slave_ni "hps_0_f2h_axi_slave_agent"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: router: "mm_interconnect_2" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_2" instantiated altera_merlin_router "router_001"
+Info: cmd_demux: "mm_interconnect_2" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_2" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_2" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_2" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: router: "mm_interconnect_3" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_3" instantiated altera_merlin_router "router_001"
+Info: cmd_demux: "mm_interconnect_3" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_3" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux: "mm_interconnect_3" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Repos/UserGuides/FPGA_Guides/examples/quartus_II/DE10_standard_hps_partial_reconfiguration/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_3" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: border: "hps_io" instantiated altera_interface_generator "border"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_001" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: DE10_standard_hps_partial_reconfiguration: Done "DE10_standard_hps_partial_reconfiguration" with 72 modules, 154 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

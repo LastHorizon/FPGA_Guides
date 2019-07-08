@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="271" />
+   <irq preferredWidth="63" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library/Basic Functions/Configuration and Programming,Library/Basic Functions,Library,Project" />
+ <window width="976" height="1038" x="-8" y="0" />
+</preferences>
